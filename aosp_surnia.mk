@@ -22,12 +22,12 @@ TARGET_SCREEN_HEIGHT := 960
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := cm_surnia
+PRODUCT_NAME := aosp_surnia
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := surnia
 PRODUCT_MANUFACTURER := motorola
